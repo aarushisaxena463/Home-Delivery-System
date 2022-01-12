@@ -1,0 +1,224 @@
+body {
+  background-color: #eddbf4;
+}
+
+
+
+/* Main content */
+.main {
+  margin-top: 30px;
+  background-color: #eddbf4; /* Add a top margin to avoid content overlay */
+}
+
+
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.semi-transparent-button {
+  display: block;
+ box-sizing: border-box;
+ margin: 0 auto;
+ padding: 8px;
+ width: 80%;
+ max-width: 200px;
+ background: #fff; /* fallback color for old browsers */
+ background: rgba(255, 255, 255, 0.5);
+ border-radius: 8px;
+ color: #fff;
+ text-align: center;
+ text-decoration: none;
+ letter-spacing: 1px;
+ transition: all 0.3s ease-out;
+ }
+
+
+ .topnav {
+
+
+
+         background-color: grey;
+            overflow: hidden;
+            height: 90px;
+            padding: 50px;
+            text-align: center;
+            font-family: 'Brush Script MT', cursive;
+            text-decoration-color: white;
+
+        }
+
+      /*  .bottomnav {
+            background-color: #c5aecf;
+            overflow: hidden;
+            height: 40px;
+            padding: 8px;
+            text-align: right;
+            text-decoration: none;
+            font-family: Arial;
+        }
+
+        a {
+            color: black;
+            padding-right: 20px;
+            font-weight: bold;
+
+        }
+*/
+
+/* The navigation bar */
+.bottomnav {
+  overflow: hidden;
+  background-color: grey;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+}
+
+/* Links inside the navbar */
+.bottomnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Apple Chancery", cursive;
+
+
+  height:40px;
+  padding: 8px;
+
+}
+
+/* Change background on mouse-over */
+.bottomnav a:hover {
+  background: #ddd;
+  color: blacks;
+}
+
+.carousel-carouselExampleSlidesOnly{
+    height: 30px;
+    width: 30px;
+
+}
+
+#about{
+
+  text-align: right;
+    background-color: #eddbf4;
+   background-image: url("E:/stationary/images/pic34.jpg");
+     background-repeat: no-repeat, repeat;
+     background-size: 2500px, 100px, auto;
+   padding: 0% 10%;
+   font-family: "Apple Chancery", cursive;
+
+}
+
+#about2{
+
+  text-align: left;
+    background-color: #eddbf4;
+   background-image: url("E:\stationary\images\pic4.jpg");
+   padding: 0% 10%;
+
+}
+
+#about3{
+
+  text-align: right;
+    background-color: #eddbf4;
+   background-image: url("E:\stationary\images\pic4.jpg");
+   padding: 0% 10%;
+
+}
+
+.pic1{
+padding: 2% 2%;
+border-radius: 10%;
+
+}
+
+.pic8{
+padding: 2% 2%;
+border-radius: 10%;
+
+}
+
+.pic9{
+padding: 2% 2%;
+border-radius: 10%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.shop-item{
+  text-align: center;
+}
+
+.carousel-inner img {
+   width: 20%;
+   height: 20%%;
+
+ }
+
+#contact{
+
+  background-color: #eddbf4;
+  height: 100px;
+  width: 200px;
+}
+
+.text1{
+  text-align: left;
+  padding: 7% 15%;
+}
+
+.text2{
+  text-align: right;
+  padding: 7% 15%;
+}
+
+.text3{
+  text-align: left;
+  padding: 7% 15%;
+}
+
+#shop{
+
+  text-align: center;
+}
+
+#shop1{
+  text-align: center;
+
+}
